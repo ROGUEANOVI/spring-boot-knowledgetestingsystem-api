@@ -1,0 +1,1164 @@
+2023-07-07 07:43:13.115  WARN 2152 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h9m56s923ms967µs600ns).
+2023-07-07 08:27:36.867  INFO 2152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07 08:27:36.882  INFO 2152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07 08:27:36.986  INFO 2152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 104 ms
+2023-07-07 08:27:37.067 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/authenticate
+2023-07-07 08:27:37.104 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:37.271 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:27:37.299 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:27:37.300 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:37.356 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:27:37.447 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:27:37.450 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:27:40.649 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:27:41.086 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:27:41.114 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/user-loggedin
+2023-07-07 08:27:41.116 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:41.119 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:27:41.137 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:27:41.138 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:41.543 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:27:41.543 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:27:41.615 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:27:41.779 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/category/
+2023-07-07 08:27:41.782 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:41.785 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:27:41.815 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:27:41.816 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:41.869 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:27:41.870 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:27:42.099 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:27:58.197 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:27:58.199 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:27:58.216 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:27:58.217 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:27:58.232 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:20.461 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:28:20.462 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:20.464 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:28:20.465 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:28:20.466 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:28:20.594 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:28:20.602 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:20.618 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:28:20.618 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:20.636 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:28:20.637 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:28:20.666 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:20.769 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:28:20.770 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:20.802 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:28:20.802 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:28:20.828 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:29.011 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/active
+2023-07-07 08:28:29.012 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:29.017 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:29.031 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:28:29.032 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:29.064 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:28:29.065 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:28:29.120 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:55.634 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/category/active/1
+2023-07-07 08:28:55.635 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:55.648 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:55.662 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/1
+2023-07-07 08:28:55.664 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:55.688 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/1] with attributes [authenticated]
+2023-07-07 08:28:55.688 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/1
+2023-07-07 08:28:55.731 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:28:59.913 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/1
+2023-07-07 08:28:59.914 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:28:59.939 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/1] with attributes [authenticated]
+2023-07-07 08:28:59.940 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/1
+2023-07-07 08:28:59.956 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:06.569 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/category/active/6
+2023-07-07 08:29:06.570 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:06.577 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:06.584 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/6
+2023-07-07 08:29:06.585 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:06.608 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/6] with attributes [authenticated]
+2023-07-07 08:29:06.609 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/6
+2023-07-07 08:29:06.622 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:09.105 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/category/active/5
+2023-07-07 08:29:09.106 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:09.114 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:09.134 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 08:29:09.135 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:09.168 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 08:29:09.169 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 08:29:09.187 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:42.047 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:29:42.047 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:42.080 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:29:42.081 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:29:42.108 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:44.680 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 08:29:44.680 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:44.712 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 08:29:44.713 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 08:29:44.734 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:29:53.463 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:29:53.465 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:29:53.488 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:29:53.489 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:29:53.525 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:30:42.326 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:30:42.326 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:30:42.328 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:30:42.329 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:30:42.330 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:30:42.455 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:30:42.460 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:30:42.473 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:30:42.473 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:30:42.489 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:30:42.489 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:30:42.505 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:30:42.640 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:30:42.641 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:30:42.674 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:30:42.674 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:30:42.694 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:30:45.881 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:30:45.882 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:30:45.909 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:30:45.910 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:30:45.941 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:30:48.098 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/1
+2023-07-07 08:30:48.099 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:30:48.101 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:30:48.109 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/1
+2023-07-07 08:30:48.110 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:30:48.135 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/1] with attributes [authenticated]
+2023-07-07 08:30:48.136 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/1
+2023-07-07 08:30:48.171 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:31:02.039 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/1
+2023-07-07 08:31:02.039 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:31:02.043 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:31:02.049 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/1
+2023-07-07 08:31:02.050 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:31:02.074 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/1] with attributes [authenticated]
+2023-07-07 08:31:02.074 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/1
+2023-07-07 08:31:02.120 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:34:17.917 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:34:17.917 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:34:17.925 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/1
+2023-07-07 08:34:17.925 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:34:17.936 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:34:17.936 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:34:17.941 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/1] with attributes [authenticated]
+2023-07-07 08:34:17.942 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/1
+2023-07-07 08:34:17.946 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:34:17.958 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:38:48.529 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:38:48.530 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:38:48.571 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:38:48.572 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:38:48.597 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:39:32.757 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:39:32.758 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:39:32.769 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:39:32.770 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:39:32.786 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:39:32.787 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:39:32.791 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:39:32.791 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:39:32.828 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:39:32.828 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:39:53.718 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:39:53.718 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:39:53.722 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:39:53.722 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:39:53.738 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:39:53.738 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:39:53.741 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:39:53.741 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:39:53.755 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:39:53.756 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:26.098 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:41:26.100 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:26.105 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:41:26.106 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:26.131 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:41:26.131 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:41:26.136 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:41:26.136 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:41:26.146 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:26.169 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:41.561 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:41:41.562 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:41.573 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:41:41.574 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:41.586 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:41:41.586 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:41:41.607 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:41:41.608 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:41:41.620 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:41.636 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:48.342 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/3
+2023-07-07 08:41:48.342 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:48.345 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:48.351 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 08:41:48.352 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:48.368 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 08:41:48.368 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 08:41:48.384 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:59.549 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/3
+2023-07-07 08:41:59.549 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:59.556 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:41:59.567 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 08:41:59.568 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:41:59.600 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 08:41:59.601 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 08:41:59.627 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:42:10.719 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:42:10.719 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:42:10.742 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:42:10.742 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:42:10.765 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:42:14.761 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/2
+2023-07-07 08:42:14.761 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:42:14.771 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:42:14.777 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/2
+2023-07-07 08:42:14.779 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:42:14.810 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/2] with attributes [authenticated]
+2023-07-07 08:42:14.810 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/2
+2023-07-07 08:42:14.825 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:42:18.163 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/2
+2023-07-07 08:42:18.164 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:42:18.173 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:42:18.191 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/2
+2023-07-07 08:42:18.193 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:42:18.226 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/2] with attributes [authenticated]
+2023-07-07 08:42:18.227 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/2
+2023-07-07 08:42:18.252 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:42:20.788 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:42:20.789 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:42:20.821 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:42:20.821 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:42:20.842 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:02.842 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:43:02.843 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:02.844 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:43:02.845 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:43:02.845 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:43:02.974 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:43:02.980 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:02.993 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:43:02.994 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:03.010 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:43:03.011 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:43:03.030 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:18.854 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:43:18.854 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:18.856 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:43:18.857 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:43:18.857 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:43:18.984 DEBUG 2152 --- [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:43:18.993 DEBUG 2152 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:18.998 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:43:18.998 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:19.015 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:43:19.015 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:43:19.030 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:25.107 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/
+2023-07-07 08:43:25.108 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:25.109 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:25.119 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/
+2023-07-07 08:43:25.120 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:25.145 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/] with attributes [authenticated]
+2023-07-07 08:43:25.145 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/
+2023-07-07 08:43:25.205 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:43:31.990 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 08:43:31.990 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:43:32.021 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 08:43:32.022 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 08:43:32.045 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:45:32.688 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/
+2023-07-07 08:45:32.689 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:45:32.691 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:45:32.696 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/
+2023-07-07 08:45:32.696 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:45:32.713 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/] with attributes [authenticated]
+2023-07-07 08:45:32.713 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/
+2023-07-07 08:45:34.244 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:45:34.699 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/
+2023-07-07 08:45:34.702 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:45:34.832 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/] with attributes [authenticated]
+2023-07-07 08:45:34.835 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/
+2023-07-07 08:45:35.087 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:45:59.564 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:45:59.565 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:45:59.568 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:45:59.569 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:45:59.569 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:45:59.702 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:45:59.714 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:45:59.726 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:45:59.727 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:45:59.750 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:45:59.750 DEBUG 2152 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:45:59.768 DEBUG 2152 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:46:21.826 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:46:21.827 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:46:21.829 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:46:21.829 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:46:21.830 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:46:21.966 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:46:21.971 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:46:21.986 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:46:21.986 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:46:22.011 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:46:22.012 DEBUG 2152 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:46:22.030 DEBUG 2152 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:46:49.321 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 08:46:49.322 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:46:49.324 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 08:46:49.326 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 08:46:49.326 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 08:46:49.455 DEBUG 2152 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 08:46:49.463 DEBUG 2152 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:46:49.472 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 08:46:49.472 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:46:49.484 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 08:46:49.484 DEBUG 2152 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 08:46:49.502 DEBUG 2152 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:46:49.606 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 08:46:49.610 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:46:49.639 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 08:46:49.640 DEBUG 2152 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 08:46:49.655 DEBUG 2152 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:47:03.691 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:47:03.691 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:47:03.713 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:47:03.714 DEBUG 2152 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:47:03.732 DEBUG 2152 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:47:08.706 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 08:47:08.707 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:47:08.735 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 08:47:08.735 DEBUG 2152 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 08:47:08.753 DEBUG 2152 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:47:13.473 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 08:47:13.474 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:47:13.500 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 08:47:13.500 DEBUG 2152 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 08:47:13.522 DEBUG 2152 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:47:39.065 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 08:47:39.065 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 08:47:39.087 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 08:47:39.088 DEBUG 2152 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 08:47:39.103 DEBUG 2152 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 08:49:51.717  INFO 2152 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 08:49:51.723  INFO 2152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07 08:49:51.734  INFO 2152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07 09:16:50.830  INFO 16528 --- [main] c.r.k.KnowledgeTestingSystemApplication  : Starting KnowledgeTestingSystemApplication using Java 11.0.11 on DESKTOP-U70KTRH with PID 16528 (D:\spring-boot\knowledge-testing-system\target\classes started by ovidio in D:\spring-boot\knowledge-testing-system)
+2023-07-07 09:16:50.837  INFO 16528 --- [main] c.r.k.KnowledgeTestingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-07-07 09:16:53.277  INFO 16528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07 09:16:53.480  INFO 16528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182 ms. Found 5 JPA repository interfaces.
+2023-07-07 09:16:55.657  INFO 16528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07 09:16:55.722  INFO 16528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07 09:16:55.724  INFO 16528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-07-07 09:16:55.980  INFO 16528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07 09:16:55.981  INFO 16528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4996 ms
+2023-07-07 09:16:56.381  INFO 16528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07 09:16:56.564  INFO 16528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2023-07-07 09:16:57.352  INFO 16528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-07 09:16:57.979  INFO 16528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07 09:16:58.582  INFO 16528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07 09:16:58.663  INFO 16528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-07-07 09:17:01.371  INFO 16528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07 09:17:01.393  INFO 16528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 09:17:03.630  WARN 16528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07 09:17:05.383 DEBUG 16528 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/api/v1/auth/authenticate']
+2023-07-07 09:17:05.387 DEBUG 16528 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/api/v1/auth/register']
+2023-07-07 09:17:05.387 DEBUG 16528 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2023-07-07 09:17:05.460  INFO 16528 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2023-07-07 09:17:06.407  INFO 16528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07 09:17:06.433  INFO 16528 --- [main] c.r.k.KnowledgeTestingSystemApplication  : Started KnowledgeTestingSystemApplication in 16.902 seconds (JVM running for 31.716)
+2023-07-07 09:20:31.586  INFO 16528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 09:20:31.591  INFO 16528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07 09:20:31.614  INFO 16528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07 09:21:14.287  INFO 15580 --- [main] c.r.k.KnowledgeTestingSystemApplication  : Starting KnowledgeTestingSystemApplication using Java 11.0.11 on DESKTOP-U70KTRH with PID 15580 (D:\spring-boot\knowledge-testing-system\target\classes started by ovidio in D:\spring-boot\knowledge-testing-system)
+2023-07-07 09:21:14.297  INFO 15580 --- [main] c.r.k.KnowledgeTestingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-07-07 09:21:16.729  INFO 15580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07 09:21:16.972  INFO 15580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 5 JPA repository interfaces.
+2023-07-07 09:21:19.645  INFO 15580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07 09:21:19.678  INFO 15580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07 09:21:19.679  INFO 15580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-07-07 09:21:19.904  INFO 15580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07 09:21:19.905  INFO 15580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5441 ms
+2023-07-07 09:21:20.474  INFO 15580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07 09:21:20.676  INFO 15580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2023-07-07 09:21:21.262  INFO 15580 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-07 09:21:21.641  INFO 15580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07 09:21:22.164  INFO 15580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07 09:21:22.275  INFO 15580 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-07-07 09:21:24.140  INFO 15580 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07 09:21:24.158  INFO 15580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 09:21:25.303  WARN 15580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07 09:21:26.741 DEBUG 15580 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/api/v1/auth/authenticate']
+2023-07-07 09:21:26.769 DEBUG 15580 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/api/v1/auth/register']
+2023-07-07 09:21:26.770 DEBUG 15580 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2023-07-07 09:21:26.810  INFO 15580 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2023-07-07 09:21:27.945  INFO 15580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07 09:21:28.010  INFO 15580 --- [main] c.r.k.KnowledgeTestingSystemApplication  : Started KnowledgeTestingSystemApplication in 15.149 seconds (JVM running for 40.824)
+2023-07-07 09:27:22.327  INFO 15580 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 09:27:22.336  INFO 15580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07 09:27:22.370  INFO 15580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07 09:32:51.068  INFO 14108 --- [main] c.r.k.KnowledgeTestingSystemApplication  : Starting KnowledgeTestingSystemApplication using Java 11.0.11 on DESKTOP-U70KTRH with PID 14108 (D:\spring-boot\knowledge-testing-system\target\classes started by ovidio in D:\spring-boot\knowledge-testing-system)
+2023-07-07 09:32:51.090  INFO 14108 --- [main] c.r.k.KnowledgeTestingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-07-07 09:32:53.404  INFO 14108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07 09:32:53.577  INFO 14108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 5 JPA repository interfaces.
+2023-07-07 09:32:56.275  INFO 14108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07 09:32:56.303  INFO 14108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07 09:32:56.304  INFO 14108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-07-07 09:32:56.503  INFO 14108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07 09:32:56.505  INFO 14108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5253 ms
+2023-07-07 09:32:57.021  INFO 14108 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07 09:32:57.187  INFO 14108 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2023-07-07 09:32:57.707  INFO 14108 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-07 09:32:58.039  INFO 14108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07 09:32:58.490  INFO 14108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07 09:32:58.578  INFO 14108 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-07-07 09:33:00.681  INFO 14108 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07 09:33:00.703  INFO 14108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 09:33:01.730  WARN 14108 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07 09:33:02.829 DEBUG 14108 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/api/v1/auth/authenticate']
+2023-07-07 09:33:02.831 DEBUG 14108 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/api/v1/auth/register']
+2023-07-07 09:33:02.831 DEBUG 14108 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2023-07-07 09:33:02.844  INFO 14108 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2023-07-07 09:33:03.367  INFO 14108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07 09:33:03.384  INFO 14108 --- [main] c.r.k.KnowledgeTestingSystemApplication  : Started KnowledgeTestingSystemApplication in 13.299 seconds (JVM running for 35.577)
+2023-07-07 09:33:29.504  INFO 14108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07 09:33:29.508  INFO 14108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07 09:33:29.515  INFO 14108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-07-07 09:33:29.562 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/authenticate
+2023-07-07 09:33:29.580 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:29.670 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:29.685 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 09:33:29.685 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:29.702 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 09:33:29.736 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 09:33:29.745 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 09:33:31.268 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 09:33:31.700 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:31.787 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/user-loggedin
+2023-07-07 09:33:31.787 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:31.797 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:31.984 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 09:33:31.984 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:32.459 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 09:33:32.460 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 09:33:32.568 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:32.748 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/category/
+2023-07-07 09:33:32.749 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:32.768 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:32.783 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:33:32.783 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:32.867 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:33:32.868 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:33:33.015 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:37.599 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/active
+2023-07-07 09:33:37.601 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:37.610 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:37.616 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:33:37.618 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:37.649 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:33:37.649 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:33:37.703 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:42.825 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/category/active/1
+2023-07-07 09:33:42.826 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:42.833 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:42.841 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/1
+2023-07-07 09:33:42.842 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:42.867 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/1] with attributes [authenticated]
+2023-07-07 09:33:42.868 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/1
+2023-07-07 09:33:42.933 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:45.486 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/1
+2023-07-07 09:33:45.489 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:45.496 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:45.504 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/1
+2023-07-07 09:33:45.504 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:45.539 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/1] with attributes [authenticated]
+2023-07-07 09:33:45.540 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/1
+2023-07-07 09:33:45.570 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:49.770 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/category/active/5
+2023-07-07 09:33:49.773 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:49.776 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:49.782 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 09:33:49.783 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:49.803 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 09:33:49.803 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 09:33:49.820 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:53.049 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/3
+2023-07-07 09:33:53.051 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:53.056 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:53.061 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:33:53.062 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:53.084 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:33:53.084 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:33:53.105 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:56.636 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/3
+2023-07-07 09:33:56.637 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:56.640 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:33:56.650 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:33:56.651 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:33:56.680 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:33:56.682 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:33:56.709 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:34:46.810 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/evaluate-test
+2023-07-07 09:34:46.810 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:34:46.812 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:34:46.815 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:34:46.815 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:34:46.835 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:34:46.836 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:34:46.926 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:35:17.346 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:35:17.349 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:35:17.373 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:35:17.373 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:35:17.394 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:35:19.407 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:35:19.408 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:35:19.432 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:35:19.432 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:35:19.448 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:35:22.411 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:35:22.411 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:35:22.438 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:35:22.439 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:35:22.468 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:35:27.014 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:35:27.015 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:35:27.031 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:35:27.031 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:35:27.068 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:35:39.766 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:35:39.766 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:35:39.789 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:35:39.790 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:35:39.835 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:36:04.790 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:36:04.790 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:36:04.848 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:36:04.849 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:36:04.870 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:36:07.780 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:36:07.781 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:36:07.807 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:36:07.807 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:36:07.824 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:36:12.963 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:36:12.965 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:36:12.985 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:36:12.985 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:36:13.022 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:37:23.530 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:37:23.531 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:37:23.550 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:37:23.551 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:37:23.571 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:38:03.911 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:38:03.912 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:38:03.936 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:38:03.936 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:38:03.951 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:38:03.951 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:38:03.972 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:38:03.972 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:38:04.001 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:38:04.112 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:38:13.210 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:38:13.210 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:38:13.224 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:38:13.225 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:38:13.234 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:39:32.862 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:39:32.863 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:39:32.890 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:39:32.890 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:39:32.905 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:39:32.905 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:39:32.925 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:39:32.926 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:39:32.928 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:39:32.968 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:40:04.394 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:40:04.394 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:40:04.414 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:40:04.415 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:40:04.432 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:42:12.260 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:42:12.261 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:42:12.276 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:42:12.276 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:42:12.278 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:42:12.278 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:42:12.289 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:42:12.299 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:42:12.300 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:42:12.318 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:42:20.405 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:42:20.405 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:42:20.420 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:42:20.421 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:42:20.444 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:42:36.315 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:42:36.315 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:42:36.347 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:42:36.348 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:42:36.379 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:43:07.700 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:43:07.701 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:43:07.714 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:43:07.714 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:43:07.720 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:43:07.720 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:43:07.743 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:43:07.744 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:43:07.811 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:43:07.860 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:43:15.395 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:43:15.396 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:43:15.408 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:43:15.408 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:43:15.418 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:43:15.419 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:43:15.427 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:43:15.428 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:43:15.430 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:43:15.443 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:47:10.321 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:47:10.322 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:47:10.344 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:47:10.345 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:47:10.411 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:47:11.975 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:47:11.976 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:47:12.043 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:47:12.043 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:47:12.163 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:47:21.369 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:47:21.370 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:47:21.387 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:47:21.387 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:47:21.399 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:47:21.428 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:47:21.429 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:47:21.448 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:47:21.449 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:47:21.461 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:07.122 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 09:52:07.122 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:07.124 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 09:52:07.125 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 09:52:07.125 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 09:52:07.286 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 09:52:07.297 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:07.303 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 09:52:07.303 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:07.327 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 09:52:07.328 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 09:52:07.374 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:07.548 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:52:07.548 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:07.576 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:52:07.576 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:52:07.649 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:12.545 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 09:52:12.546 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:12.567 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 09:52:12.567 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 09:52:12.586 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:14.584 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:52:14.584 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:14.603 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:52:14.603 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:52:14.618 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:17.907 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:52:17.908 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:17.925 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:52:17.927 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:52:17.947 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:52:25.446 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:52:25.446 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:52:25.458 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:52:25.458 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:52:25.472 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:53:51.736 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:53:51.737 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:53:51.747 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 09:53:51.747 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:53:51.758 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:53:51.758 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:53:51.762 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 09:53:51.762 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 09:53:51.767 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:53:51.771 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:53:51.782 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 09:53:51.782 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:53:51.796 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 09:53:51.796 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 09:53:51.826 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:53:55.261 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 09:53:55.261 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:53:55.276 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 09:53:55.277 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 09:53:55.286 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:53:57.131 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:53:57.131 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:53:57.152 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:53:57.153 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:53:57.171 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:54:01.383 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:54:01.383 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:54:01.400 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:54:01.401 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:54:01.416 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:54:07.255 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:54:07.256 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:54:07.272 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:54:07.272 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:54:07.285 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:54:11.656 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 09:54:11.659 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:54:11.677 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 09:54:11.678 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 09:54:11.692 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:54:14.716 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:54:14.717 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:54:14.731 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:54:14.732 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:54:14.754 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:54:17.547 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:54:17.548 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:54:17.605 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:54:17.606 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:54:17.683 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:56:00.604 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 09:56:00.605 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:56:00.606 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 09:56:00.609 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 09:56:00.609 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 09:56:00.736 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 09:56:00.742 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:56:00.757 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 09:56:00.757 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:56:00.770 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 09:56:00.771 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 09:56:00.779 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:56:00.942 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:56:00.943 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:56:01.039 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:56:01.039 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:56:01.057 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:56:04.543 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 09:56:04.543 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:56:04.566 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 09:56:04.567 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 09:56:04.584 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:56:06.107 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 09:56:06.108 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:56:06.133 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 09:56:06.133 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 09:56:06.153 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:56:11.167 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 09:56:11.168 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:56:11.190 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 09:56:11.191 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 09:56:11.214 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:58:12.244 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:58:12.245 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:58:12.261 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 09:58:12.261 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 09:58:12.275 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:59:59.053 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 09:59:59.054 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:59:59.055 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 09:59:59.056 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 09:59:59.057 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 09:59:59.201 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 09:59:59.211 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:59:59.229 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 09:59:59.229 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:59:59.244 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 09:59:59.245 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 09:59:59.257 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 09:59:59.480 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 09:59:59.480 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 09:59:59.508 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 09:59:59.509 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 09:59:59.526 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:00:04.898 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 10:00:04.899 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:00:04.920 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 10:00:04.921 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 10:00:04.932 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:00:06.879 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:00:06.879 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:00:06.897 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:00:06.897 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:00:06.909 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:00:10.266 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:00:10.267 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:00:10.288 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:00:10.288 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:00:10.304 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:00:19.253 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:00:19.253 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:00:19.264 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 10:00:19.264 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:00:19.280 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:16.985 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 10:03:16.985 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:16.991 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:03:16.991 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:17.004 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 10:03:17.004 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 10:03:17.007 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:03:17.008 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:03:17.014 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:17.021 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:17.027 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:03:17.027 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:17.039 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:03:17.040 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:03:17.059 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:19.773 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 10:03:19.775 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:19.792 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 10:03:19.792 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 10:03:19.804 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:21.595 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:03:21.596 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:21.612 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:03:21.612 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:03:21.626 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:24.929 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:03:24.929 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:24.961 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:03:24.962 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:03:24.980 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:29.515 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:03:29.515 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:29.530 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 10:03:29.531 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:03:29.552 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:34.191 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 10:03:34.192 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:34.206 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 10:03:34.207 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 10:03:34.222 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:36.983 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/1
+2023-07-07 10:03:36.983 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:37.000 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/1] with attributes [authenticated]
+2023-07-07 10:03:37.000 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/1
+2023-07-07 10:03:37.024 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:43.596 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 10:03:43.597 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:43.630 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 10:03:43.631 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 10:03:43.641 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:45.578 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:03:45.579 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:45.595 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:03:45.595 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:03:45.621 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:48.860 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:03:48.860 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:48.878 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:03:48.878 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:03:48.900 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:03:59.504 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:03:59.505 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:03:59.514 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 10:03:59.515 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:03:59.524 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:05:26.020 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/evaluate-test
+2023-07-07 10:05:26.021 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:05:26.023 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:05:26.029 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:05:26.030 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:05:26.043 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 10:05:26.043 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:05:26.059 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:05:49.924 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:05:49.925 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:05:49.948 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 10:05:49.949 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:05:49.963 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:11.358 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/authenticate
+2023-07-07 10:09:11.359 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:11.360 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:11.365 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:09:11.365 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:11.368 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:09:11.369 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:09:11.369 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:09:11.491 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:09:11.495 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:11.507 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/user-loggedin
+2023-07-07 10:09:11.508 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:11.509 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:11.514 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:09:11.515 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:11.525 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:09:11.526 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:09:11.535 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:11.724 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/category/
+2023-07-07 10:09:11.724 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:11.726 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:11.729 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 10:09:11.729 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:11.744 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 10:09:11.744 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 10:09:11.760 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:15.178 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/category/active/5
+2023-07-07 10:09:15.179 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:15.188 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:15.200 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 10:09:15.201 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:15.236 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 10:09:15.237 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 10:09:15.262 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:16.607 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/3
+2023-07-07 10:09:16.608 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:16.611 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:16.619 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:09:16.619 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:16.633 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:09:16.633 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:09:16.647 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:30.284 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/questionary/test/3
+2023-07-07 10:09:30.285 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:30.287 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:09:30.298 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:09:30.298 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:09:30.310 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:09:30.310 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:09:30.335 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:40.111 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:11:40.111 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:40.112 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:11:40.113 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:11:40.113 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:11:40.229 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:11:40.233 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:40.244 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:11:40.245 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:40.258 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:11:40.259 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:11:40.270 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:40.444 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 10:11:40.444 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:40.461 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 10:11:40.461 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 10:11:40.482 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:43.917 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 10:11:43.918 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:43.935 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 10:11:43.935 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 10:11:43.948 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:45.681 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:11:45.682 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:45.696 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:11:45.697 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:11:45.704 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:49.936 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:11:49.936 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:49.957 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:11:49.958 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:11:49.972 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:11:54.351 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:11:54.352 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:11:54.363 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/questionary/test/evaluate-test] with attributes [authenticated]
+2023-07-07 10:11:54.363 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/questionary/test/evaluate-test
+2023-07-07 10:11:54.388 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:35.499 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:14:35.500 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:35.501 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:14:35.502 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:14:35.502 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:14:35.638 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:14:35.642 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:35.656 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:14:35.656 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:35.672 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:14:35.672 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:14:35.686 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:35.863 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 10:14:35.863 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:35.876 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 10:14:35.876 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 10:14:35.887 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:39.496 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 10:14:39.497 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:39.509 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 10:14:39.511 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 10:14:39.532 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:41.128 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:14:41.129 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:41.143 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:14:41.144 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:14:41.153 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:44.811 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:14:44.812 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:44.835 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:14:44.835 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:14:44.859 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:55.068 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/test/active
+2023-07-07 10:14:55.068 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:55.070 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:55.079 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/active
+2023-07-07 10:14:55.081 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:55.097 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/active] with attributes [authenticated]
+2023-07-07 10:14:55.097 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/active
+2023-07-07 10:14:55.117 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:14:57.053 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:14:57.054 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:14:57.071 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:14:57.071 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:14:57.085 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:15:04.085 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:15:04.085 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:15:04.105 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:15:04.106 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:15:04.125 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:28:42.505 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:28:42.505 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:28:42.507 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:28:42.510 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:28:42.510 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:28:42.644 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:28:42.649 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:28:42.662 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:28:42.662 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:28:42.680 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:28:42.680 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:28:42.697 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:28:55.970 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:28:55.970 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:28:55.972 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:28:55.972 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:28:55.973 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:28:56.158 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'oqrg940703'
+2023-07-07 10:28:56.211 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:04.524 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:29:04.524 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:04.525 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:29:04.526 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:29:04.526 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:29:04.646 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'oqrg940703'
+2023-07-07 10:29:04.647 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:11.386 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:29:11.386 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:11.388 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:29:11.388 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:29:11.389 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:29:11.522 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'oqrg940703'
+2023-07-07 10:29:11.527 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:19.828 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:29:19.829 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:19.830 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:29:19.830 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:29:19.831 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:29:19.964 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:29:19.968 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:19.974 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:29:19.975 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:19.984 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:29:19.985 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:29:20.000 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:34.883 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:29:34.884 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:34.885 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:29:34.885 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:29:34.886 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:29:35.018 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:29:35.028 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:35.039 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:29:35.039 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:35.051 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:29:35.052 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:29:35.067 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:38.966 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/v1/auth/authenticate
+2023-07-07 10:29:38.966 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:38.968 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:38.973 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:29:38.973 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:38.981 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:29:38.982 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:29:39.114 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:29:39.117 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:29:39.122 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:29:39.123 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:29:39.133 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:29:39.134 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:29:39.146 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:01.177 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:30:01.178 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:01.179 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:30:01.180 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:30:01.180 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:30:01.307 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:30:01.314 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:01.319 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:30:01.319 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:01.335 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:30:01.335 DEBUG 14108 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:30:01.367 DEBUG 14108 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:19.139 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:30:19.140 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:19.141 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:30:19.144 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:30:19.144 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:30:19.268 DEBUG 14108 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:30:19.277 DEBUG 14108 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:19.283 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:30:19.284 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:19.315 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:30:19.316 DEBUG 14108 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:30:19.330 DEBUG 14108 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:19.433 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 10:30:19.433 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:19.457 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 10:30:19.459 DEBUG 14108 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 10:30:19.475 DEBUG 14108 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:38.306 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/authenticate
+2023-07-07 10:30:38.307 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:38.308 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-07-07 10:30:38.308 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /api/v1/auth/authenticate] with attributes [permitAll]
+2023-07-07 10:30:38.309 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/authenticate
+2023-07-07 10:30:38.430 DEBUG 14108 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-07-07 10:30:38.434 DEBUG 14108 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:38.442 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/auth/user-loggedin
+2023-07-07 10:30:38.443 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:38.456 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/auth/user-loggedin] with attributes [authenticated]
+2023-07-07 10:30:38.457 DEBUG 14108 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/auth/user-loggedin
+2023-07-07 10:30:38.464 DEBUG 14108 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:38.537 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/category/
+2023-07-07 10:30:38.537 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:38.565 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/category/] with attributes [authenticated]
+2023-07-07 10:30:38.566 DEBUG 14108 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/category/
+2023-07-07 10:30:38.632 DEBUG 14108 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:43.799 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/category/active/5
+2023-07-07 10:30:43.799 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:43.828 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/category/active/5] with attributes [authenticated]
+2023-07-07 10:30:43.829 DEBUG 14108 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/category/active/5
+2023-07-07 10:30:43.848 DEBUG 14108 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:46.400 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/test/3
+2023-07-07 10:30:46.400 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:46.417 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/test/3] with attributes [authenticated]
+2023-07-07 10:30:46.418 DEBUG 14108 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/test/3
+2023-07-07 10:30:46.431 DEBUG 14108 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 10:30:54.909 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/questionary/test/3
+2023-07-07 10:30:54.910 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2023-07-07 10:30:54.927 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [GET /api/v1/questionary/test/3] with attributes [authenticated]
+2023-07-07 10:30:54.927 DEBUG 14108 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/questionary/test/3
+2023-07-07 10:30:54.954 DEBUG 14108 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2023-07-07 13:33:29.261  WARN 14108 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h29s614ms776µs401ns).
+2023-07-07 15:03:56.311  WARN 14108 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m33s53ms777µs700ns).
+2023-07-07 15:14:26.711  INFO 14108 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07 15:14:26.748  INFO 14108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07 15:14:26.805  INFO 14108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
